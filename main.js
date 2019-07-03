@@ -28,7 +28,7 @@ let ques3 = items.filter(function(curr) {
           return false
     }
 }).map(function(x) {
-    return x.title + " " + x.price
+    return x.title + " costs £" + x.price
 }).join()
 const answer3 = ques3
 
